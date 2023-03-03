@@ -1,0 +1,19 @@
+﻿@page "/"
+
+<h1>Rock, Paper and Scissor</h1>
+
+<button class="btn btn-info">Play Again</button>
+
+<div style="display:flex; justify-content: center; margin-bottom: 20px">
+    <img src="/paper.jpg" class="image" />
+</div>
+
+<div style="display:flex; justify-content:space-around;">
+    <img src="/paper.jpg" class="image selectable-image" />
+    <img src="/rock.jpg" class="image selectable-image" />
+    <img src="/scissors.jpg" class="image selectable-image" />
+</div>
+
+@code{
+    Timer timer;
+}
